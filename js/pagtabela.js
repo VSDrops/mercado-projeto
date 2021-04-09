@@ -1,0 +1,2 @@
+alert('Esta Pagina ainda esta em construção, \n e suas informações PODEM estar desatualizadas!');
+alert('Entre em contato com os Nossos telefones para maiores informações! \n 11 2268-1503 \n 11 2367-1503 \n 11 96635-6000' );
