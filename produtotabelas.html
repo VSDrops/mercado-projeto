@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+
+    <!--Custom Style-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    
+    <title>NOSE - Web Mercado!</title>
+
+
+      <link rel="icon" href="img/mini-logo-2.png"> <!-- Exibe o Logotipo junto com o titulo-->
+
+  </head>
+
+  <body>
+
+    <header><!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente"><!--a navbar se expande quando atingir o break md e fica fixa no topo-->
+            <div class="container">
+
+                <a href="index.html" class="navbar-brand"><!--Logotipo-->
+                    <img src="img/logo-navbar.png" width="142">
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#localizacao" class="nav-link">Localização</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#contatos" class="nav-link">Contatos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="produtotabelas.html" class="nav-link">Produtos</a>
+                        </li>
+                        
+                        <li class="nav-item divisor"></li>
+
+                        <li class="nav-item">
+                            <a href="formcadped.html" class="btn btn-outline-info">Cadastre-se</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a href="formcadped.html" class="btn btn-outline-success">Entrar</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+    </header><!--Navbar-->
+
+    <section id="produtos"><!--inicio principal-->
+        <div id="tabela">
+            <div class="container">
+                <div class="row fundo-menu">
+                    <div class="col-md-3 col-6 pb-2" style="border: 2px solid green;">
+                        <h1 class="text-center">Bebidas</h1>
+                        <div class="carousel slide" data-ride="carousel"><!--Criação do carousel-->
+                            <div class="carousel-inner">
+        
+                                <div class="carousel-item active"><!-- item do carousel-->
+                                    <img src="img/skol1lt.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/redlabel.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/josecuervo.png" class="img-fluid">
+                                </div>
+                            </div>   
+                            <p>Consulte o Preços de Nossos Whiskys, Tequilas, Vodkas
+                                e muito mais...
+                            </p>
+                            <a href="#bebidas" class="btn btn-outline-success">Consultar Tabela</a>
+                        </div> 
+                    </div>
+        
+                    <div class="col-md-3 pb-2 col-6" style="border: 2px solid green;">
+                        <h1 class="text-center">Refrigerantes</h1>
+                        <div class="carousel slide" data-ride="carousel"><!--Criação do carousel-->
+                            <div class="carousel-inner">
+        
+                                <div class="carousel-item active"><!-- item do carousel-->
+                                    <img src="img/coca2lt.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/guarana2lt.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/soda2lt.png" class="img-fluid">
+                                </div>
+                                <p>
+                                    Consulte o preço de variados refrigerantes, Coca-cola,
+                                    Guaraná, Soda e muito mais...
+                                </p>
+                                <a href="#refrigerantes" class="btn btn-outline-success">Consultar Tabela</a>
+                            </div>   
+                        </div> 
+                    </div>
+        
+                    <div class="col-md-3 pb-2 col-6" style="border: 2px solid green;">
+                        <h1 class="text-center">Sucos</h1>
+                        <div class="carousel slide" data-ride="carousel"><!--Criação do carousel-->
+                            <div class="carousel-inner">
+        
+                                <div class="carousel-item active"><!-- item do carousel-->
+                                    <img src="img/sucodobem.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/delvalle.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/x-tapa.png" class="img-fluid">
+                                </div>
+                            </div>
+                            <p>
+                                Consulte nossas opções de Sucos.
+                                Suco Del Valle, X-tapa, Suco do bem entre outros..
+                            </p>
+                            <a href="#sucos" class="btn btn-outline-success">Consultar Tabela</a>   
+                        </div> 
+                    </div>
+        
+                    <div class="col-md-3 pb-2 col-6" style="border: 2px solid green;">
+                        <h1 class="text-center">Águas</h1>
+                        <div class="carousel slide" data-ride="carousel"><!--Criação do carousel-->
+                            <div class="carousel-inner">
+        
+                                <div class="carousel-item active"><!-- item do carousel-->
+                                    <img src="img/agua20lt.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/agua1lt.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/aguacgas.png" class="img-fluid">
+                                </div>
+                            </div>
+                            <p>
+                                Temos Aguas minerais de variados Tamanhos e Marcas.
+                                500ml, 1,5lt e 20 Lts com e sem Gás!
+                            </p>
+                            <a href="#agua" class="btn btn-outline-success">Consultar Tabela</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="margem-pesquisa">
+        
+        <section>
+            
+            <div class="container"><!--Container formulario-->
+
+                <div class="row justify-content-center">
+                    
+                    <div class="col-sm-12 col-md-10 col-lg-8">
+
+                        <form><!--Inicio Formulario responsivo-->
+                            <fieldset class="fundo-menu">
+                                <legend>Barra de Pesquisa</legend>
+
+                                <div class="form-row">
+                                    <div class="form-group col-sm-6">
+                                        <label for="nome">Produto:</label>
+                                        <input class="form-control" id="produto" name="produto" type="text" placeholder="Coca-Cola" maxlength="50"><!--maxlenght define o tamanho maximo de caracteres-->    
+                                    </div>
+
+                                    <div class="form-group col-sm-6">
+                                        <label for="tipo">Tipo:</label>
+                                        <select class="form-control" name="tipo" id="tipo">
+                                            <option value="bebida">Bebidas</option>
+                                            <option value="refrigerante">Refrigerantes</option>
+                                            <option value="Sucos">Sucos</option>
+                                            <option value="Agua">Águas</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success col-12" name="search">Pesquisar <i class="fas fa-search"></i></a>
+                            </fieldset>
+                        </form><!--Fim formulario-->
+
+                    </div>
+
+                </div>
+
+            </div><!--/fim formulario-->
+        
+        </section>
+
+    </main>
+
+
+    <section id="tabelas">
+        <h2 class="bg-success text-white text-center">BEBIDAS</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="bebidas">
+                    <h6>Dica: Use o Ctrl+F e digite o nome do produto para encontra-lo mais rápido.</h6>
+                    <table class="table table-hover table-striped table-bordered fundo-menu">
+                        <thead>
+                            <!--Tag que indica cabeçalho da tabela, aparecera em impressoes em todas as paginas e utilizado para paginação alem de aplicar formatações especificas-->
+                
+                            <tr>
+                                <!--Table row, linha da tabela-->
+                                <th>Produto</th>
+                                <th>Quantidade</th>
+                                <th>Preço Unitario na caixa</th>
+                                <th>Preço da Caixa </th>
+                            </tr>
+                        </thead>
+                
+                        <tbody>
+                            <!--Corpo da tabela, aqui pode-se aplicar paginações formatações especificas, alterando o conteudo sem alterar o cabeçalho-->
+                            
+                            <tr>
+                                <td>Skol 1LT</td>
+                                <td>CX/12</td>
+                                <td>R$6,25</td>
+                                <td>R$75,00</td>
+                            </tr>
+                            <tr>
+                                <td>Brahma 1LT</td>
+                                <td>CX/12</td>
+                                <td>R$6,25</td>
+                                <td>R$75,00</td>
+                            </tr>
+                            <tr>
+                                <td>Itaipava 1LT</td>
+                                <td>CX/12</td>
+                                <td>R$5,66</td>
+                                <td>67,90</td>
+                            </tr>
+                        </tbody>
+                
+                        <tfoot>
+                            <!--rodapé da tabela, aperecera em todsas as paginas incluse nas impressoes-->
+                            Tabela de Cervejas 1lt.
+                        </tfoot>
+                
+                    </table>
+
+                    <table class="table table-hover table-striped table-bordered fundo-menu">
+                        <thead>
+                            <!--Tag que indica cabeçalho da tabela, aparecera em impressoes em todas as paginas e utilizado para paginação alem de aplicar formatações especificas-->
+                
+                            <tr>
+                                <!--Table row, linha da tabela-->
+                                <th>Produto</th>
+                                <th>Quantidade</th>
+                                <th>Preço Unitario na caixa</th>
+                                <th>Preço da Caixa </th>
+                            </tr>
+                        </thead>
+                
+                        <tbody>
+                            <!--Corpo da tabela, aqui pode-se aplicar paginações formatações especificas, alterando o conteudo sem alterar o cabeçalho-->
+                            
+                            <tr>
+                                <td>Skol 1LT</td>
+                                <td>CX/12</td>
+                                <td>R$6,25</td>
+                                <td>R$75,00</td>
+                            </tr>
+                            <tr>
+                                <td>Brahma 1LT</td>
+                                <td>CX/12</td>
+                                <td>R$6,25</td>
+                                <td>R$75,00</td>
+                            </tr>
+                            <tr>
+                                <td>Itaipava 1LT</td>
+                                <td>CX/12</td>
+                                <td>R$5,66</td>
+                                <td>67,90</td>
+                            </tr>
+                        </tbody>
+                
+                        <tfoot>
+                            <!--rodapé da tabela, aperecera em todsas as paginas incluse nas impressoes-->
+                            Tabela de Cervejas 600ml.
+                        </tfoot>
+                
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer id="rodape"><!--Rodapé-->
+      <div class="container">
+          <div class="row">
+            <div class="col-4">
+
+                <div class="d-flex">
+                    <a href="index.html"><img src="img/logo-navbar.png" width="100"></a>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-none d-md-block">
+              
+                <ul class="navbar-nav ml-5">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#localizacao">Localização</a></li>
+                    <li><a href="produtotabelas.html">Produtos</a></li>
+                    <li><a href="formcadped.html">Contatos</a></li>      
+                </ul>
+            </div>
+
+            <div class="col-4">
+                
+                
+                <div class="d-flex mt-2">
+
+                    <h5 class="ttexto">Siga o NOSE nas redes-sociais:</h5>
+                    
+                    <a href="" class="btn btn-outline-light ml-2">
+                      <i class="fab fa-facebook fa-lg"></i>
+                    </a>
+      
+                    <a href="" class="btn btn-outline-light ml-2">
+                      <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+      
+                    <a href="" class="btn btn-outline-light ml-2">
+                      <i class="fab fa-youtube fa-lg"></i>
+                    </a>
+      
+                    <a href="https://api.whatsapp.com/send?phone=5511966356000" class="btn btn-outline-light ml-2">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+      
+                  </div>
+            </div>
+            
+        </div>
+      </div>
+    </footer><!--/Rodapé-->
+
+  
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="js/pagtabela.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
+

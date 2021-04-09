@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+
+    <!--Custom Style-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+	  
+	<link rel="stylesheet" href="styles.css">
+
+    
+    <title>NOSE - Web Mercado!</title>
+    
+
+      <link rel="icon" href="img/mini-logo-2.png"> <!-- Exibe o Logotipo junto com o titulo-->
+
+  </head>
+
+  <body>
+
+    <header><!--Navbar-->
+        <nav id="navb" class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente"><!--a navbar se expande quando atingir o break md e fica fixa no topo-->
+			
+          <div class="container">
+
+                <a href="index.html" class="navbar-brand"><!--Logotipo-->
+                    <img src="img/logo-navbar.png" width="142">
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                            Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#localizacao" class="nav-link">Localização</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#contatos" class="nav-link">Contatos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="produtotabelas.html" class="nav-link">Produtos</a>
+                        </li>
+                        
+                        <li class="nav-item divisor"></li>
+
+                        <li class="nav-item">
+                            <a href="formcadped.html" class="btn btn-outline-info">Cadastre-se</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a href="formcadped.html" class="btn btn-outline-success">Entrar</a>
+                        </li>
+
+                    </ul>
+
+              </div>
+
+            </div>
+        </nav>
+    </header><!--Navbar-->
+
+    <section id="home" class="d-flex"> <!--home-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 capa">
+                   
+                   <div>  
+                     <h1 class="home-promocao">Promoções do dia usando o cupom WEBNOSE10!</h1>
+                     <p class="text-white">Promoções valídas por tempo determinado ou até durarem os estoques</p>
+                   </div>    
+                    <div id="carousel-promocao" class="carousel slide" data-ride="carousel"><!--Carousel-->
+
+                        <ol class="carousel-indicators">
+                            <li class="active" data-target="#carousel-promocao" data-slide-to="0"></li><!--indica a sequencia dos indicadores de acordo com a sequencia de imagens, inicializando do 0-->
+              
+                            <li data-target="#carousel-promocao" data-slide-to="1"></li>
+              
+                            <li data-target="#carousel-promocao" data-slide-to="2"></li>
+                          </ol>
+                        
+                        <div class="carousel-inner"><!--inner-->
+                            <div class="carousel-item active">
+                                <a href="formcadped.html"><img src="img/skol1lt.png" class="img-fluid"></a>
+                                <div class="carousel-caption">
+                                    <div class="fundo-legenda">
+                                        <h3>SKOL 1LT CX/12</h3>
+                                        <p>de <strong class="">R$ 75,90</strong> por apenas <strong class="destacador">R$ 70,00 <i class="fas fa-long-arrow-alt-down"></i></strong></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <a href="formcadped.html"><img src="img/brahma1lt.png" class="img-fluid"></a>
+                                <div class="carousel-caption">
+                                    <div class="fundo-legenda">
+                                        <h3>BRAHMA 1LT CX/12</h3>
+                                        <p>de <strong class="">R$ 75,90</strong> por apenas <strong class="destacador">R$ 70,00 <i class="fas fa-long-arrow-alt-down"></i></strong></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <a href="formcadped.html"><img src="img/antartica1lt.png" class="img-fluid"></a>
+                                <div class="carousel-caption">
+                                    <div class="fundo-legenda">
+                                        <h3>ANTARTICA 1LT CX/12</h3>
+                                        <p>de <strong class="">R$ 73,90</strong> por apenas <strong class="destacador">R$ 67,00 <i class="fas fa-long-arrow-alt-down"></i></strong></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!--/inner-->
+
+                        <a href="#carousel-promocao" class="carousel-control-prev" data-slide="prev">
+                            <i class="fas fa-angle-left fa-3x"></i>
+                        </a>
+
+                        <a href="#carousel-promocao" class="carousel-control-next" data-slide="next">
+                            <i class="fas fa-angle-right fa-3x"></i>
+                        </a>
+
+                    </div><!--/carousel-->
+
+                </div>
+            </div>
+        </div>
+    </section><!--/home-->
+
+    <section id="localizacao"><!--Localização-->
+        <div class="container mapa mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Estamos estratégicamente bem posicionados</h3>
+                    <p>Estamos Localizados na região central de são paulo, na <strong class="destacador-texto">Av. D. João 454 - Jardim das Nações - Diadema - SP</strong>.
+                        Facíl acesso a diversas regiões proximas do centro de São Paulo para entrega.
+                    </p>
+
+                    <h4>Como chegar?</h4>
+
+                    <p>
+                        Estamos proximos a diversas avenidas e locais mais famosos da cidade de diadema.
+                        Vamos citar algumas localidades proximas que possam ajudar você a chegar a nossa
+                        loja e conhecer melhor nossos serviços.
+                    </p>
+
+
+                    <strong>Locais Proximos:</strong>
+                    <ul>
+                       <li>Correios</li>
+                       <li>Caixa Econômica</li>
+                       <li>Praça Luis dos Santos</li>
+                    </ul>
+
+                    <strong>Ruas e Avenidas Proximas:</strong>
+                    <ul>
+                        <li>Rodovia dos Imigrantes</li>
+                        <li>Av das Nações</li>
+                        <li>Rua Santa cruz</li>
+                        <li>Rua Santa Efigênia</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 m-auto">
+                    <div class="d-flex" >
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.9863125210995!2d-46.60940808538095!3d-23.67644747173667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4496afdabd63%3A0xd0bbe8991f73638a!2sAv.%20Dom%20Jo%C3%A3o%20VI%2C%20454%20-%20Canhema%2C%20Diadema%20-%20SP%2C%2009941-115!5e0!3m2!1sen!2sbr!4v1617906229295!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/Localização-->
+
+    <section id="contatos">
+        <div class="container fundo-contato">
+            <div class="row ">
+                <div class="col-md-6 text-white ">
+                    <h1>Contatos - NOSE.</h1>
+                    <p> A NOSE Sempre procura as melhores maneiras de atender seus clientes.
+                        Pensando nisso temos diversas formas de contatos, para que você não fique sem seu pedido,
+                        e fique sempre informado para que não perca nenhuma novidade!</p>
+                    
+                    <h5>Telefones para pedidos e informações</h5>
+                    <ul>
+                        <li>11 4091-9181</li>
+                        <li>11 4070-2748</li>
+                        <li>13 96661-3666<a href="https://api.whatsapp.com/send?phone=5511966356000" class="btn btn-outline-light ml-2">
+                            <i class="fab fa-whatsapp"></i>
+                        </a></li>
+                    </ul>
+
+                    <h5>Nossas Redes Sociais</h5>
+                    <div class="d-flex pb-5">
+                        <a href="" class="btn btn-outline-light ml-2">
+                            <i class="fab fa-facebook fa-lg"></i>
+                          </a>
+            
+                          <a href="" class="btn btn-outline-light ml-2">
+                            <i class="fab fa-twitter fa-lg"></i>
+                          </a>
+            
+                          <a href="" class="btn btn-outline-light ml-2">
+                            <i class="fab fa-youtube fa-lg"></i>
+                          </a>
+            
+                          <a href="" class="btn btn-outline-light ml-2">
+                              <i class="fab fa-whatsapp"></i>
+                          </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-white">
+                   <h5>Um pouco sobre nós - Mercado NOSE</h5>
+                   <p> O Mercado Nose, se preocupa com a qualidade de seus serviços,
+                       e bem estar de nossos clientes.
+                       Pensando nisto, o NOSE inspeciona, estuda e investe metodos que possam agilizar
+                       o tempo do cliente e garantir a qualidade do produto.
+                       Desde 1990 inovando nossos serviços para melhor atende-lo, quanto presencialmente
+                       ou por nossos deliverys por telefone.
+                      
+                   </p>
+
+                   <p>
+                    Agora com a pandemia do COVID-19 o NOSE inova mais uma vez..
+                    Disponivel na WEB o Site do NOSE, Nosso WEB Mercado!
+                    Seus comprar cada vez mais perto de você, sem você precisar sair de casa!
+                    Faça ja o Seu cadastro!
+                   </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="rodape"><!--Rodapé-->
+      <div class="container">
+          <div class="row">
+            <div class="col-4">
+
+                <div class="d-flex">
+                    <a href="index.html"><img src="img/logo-navbar.png" width="100"></a>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-none d-md-block">
+              
+                <ul class="navbar-nav ml-5">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#localizacao">Localização</a></li>
+                    <li><a href="produtotabelas.html">Produtos</a></li>
+                    <li><a href="formcadped.html">Contatos</a></li>      
+                </ul>
+            </div>
+
+            <div class="col-4">
+                
+                
+                <div class="d-flex mt-2">
+
+                    <h5 class="ttexto">Siga o NOSE nas redes-sociais:</h5>
+                    
+                    <a href="" class="btn btn-outline-light ml-2">
+                      <i class="fab fa-facebook fa-lg"></i>
+                    </a>
+      
+                    <a href="" class="btn btn-outline-light ml-2">
+                      <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+      
+                    <a href="" class="btn btn-outline-light ml-2">
+                      <i class="fab fa-youtube fa-lg"></i>
+                    </a>
+      
+                    <a href="https://api.whatsapp.com/send?phone=5511966356000" class="btn btn-outline-light ml-2">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+      
+                  </div>
+            </div>
+            
+        </div>
+      </div>
+    </footer><!--/Rodapé-->
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
