@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+
+    <!--Custom Style-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+	  
+    <title>NOSE - Web Mercado!</title>
+    
+
+      <link rel="icon" href="img/mini-logo-2.png"> <!-- Exibe o Logotipo junto com o titulo-->
+
+  </head>
+
+  <body>
+
+    <header><!--Navbar-->
+        <nav id="navb" class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente"><!--a navbar se expande quando atingir o break md e fica fixa no topo-->
+			
+          <div class="container">
+
+                <a href="index.html" class="navbar-brand"><!--Logotipo-->
+                    <img src="img/logo-navbar.png" width="142">
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="index.html#localizacao" class="nav-link">Localização</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="index.html#contatos" class="nav-link">Contatos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="produtotabelas.html" class="nav-link">Produtos</a>
+                        </li>
+                        
+                        <li class="nav-item divisor"></li>
+
+                        <li class="nav-item">
+                            <a href="formcadped.html" class="btn btn-outline-info">Cadastre-se</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a href="login.html" class="btn btn-outline-success">Entrar</a>
+                        </li>
+
+                    </ul>
+
+              </div>
+
+            </div>
+        </nav>
+    </header><!--Navbar-->
+
+    <div class="container">
+        <div class="row justify-content-center">
+           <form >
+               <fieldset class="cadastro-cliente painel">
+                <legend>Entrar</legend>
+
+                <div class="form-row">
+                    <div class="form-grou col-12">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="meuemail@nose.com" autofocus required maxlength="50" name="email" id="email" class="form-control">
+                    </div>
+                    <div class="form-group col-12">
+                        <label for="senha">Senha:</label>
+                        <input type="password" required maxlength="20" id="senha" name="senha" class="form-control" placeholder="******">
+                    </div>
+                    <br>
+                    <a href="forget.html"><h6>Esqueci minha senha.. <i class="fas fa-grin-squint-tears"></i> </h6></a>
+                    <br>
+                    <button type="submit" class="btn btn-outline-success col-12">Entrar</button>
+                </div>
+
+               </fieldset>
+               
+           </form>
+        </div>
+    </div>
+
+</body>
+</html>
